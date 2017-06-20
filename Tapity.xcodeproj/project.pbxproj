@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D879DB621EDBA4DE009E2141 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D879DB611EDBA4DE009E2141 /* AppDelegate.swift */; };
+		D879DB641EDBA4DE009E2141 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D879DB631EDBA4DE009E2141 /* ViewController.swift */; };
+		D879DB671EDBA4DE009E2141 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D879DB651EDBA4DE009E2141 /* Main.storyboard */; };
+		D879DB691EDBA4DE009E2141 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D879DB681EDBA4DE009E2141 /* Assets.xcassets */; };
+		D879DB6C1EDBA4DE009E2141 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D879DB6A1EDBA4DE009E2141 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D879DB5E1EDBA4DE009E2141 /* Tapity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tapity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D879DB611EDBA4DE009E2141 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D879DB631EDBA4DE009E2141 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D879DB661EDBA4DE009E2141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D879DB681EDBA4DE009E2141 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D879DB6B1EDBA4DE009E2141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D879DB6D1EDBA4DE009E2141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D879DB5B1EDBA4DE009E2141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D879DB551EDBA4DE009E2141 = {
+			isa = PBXGroup;
+			children = (
+				D879DB601EDBA4DE009E2141 /* Tapity */,
+				D879DB5F1EDBA4DE009E2141 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D879DB5F1EDBA4DE009E2141 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D879DB5E1EDBA4DE009E2141 /* Tapity.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D879DB601EDBA4DE009E2141 /* Tapity */ = {
+			isa = PBXGroup;
+			children = (
+				D879DB611EDBA4DE009E2141 /* AppDelegate.swift */,
+				D879DB631EDBA4DE009E2141 /* ViewController.swift */,
+				D879DB651EDBA4DE009E2141 /* Main.storyboard */,
+				D879DB681EDBA4DE009E2141 /* Assets.xcassets */,
+				D879DB6A1EDBA4DE009E2141 /* LaunchScreen.storyboard */,
+				D879DB6D1EDBA4DE009E2141 /* Info.plist */,
+			);
+			path = Tapity;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D879DB5D1EDBA4DE009E2141 /* Tapity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D879DB701EDBA4DE009E2141 /* Build configuration list for PBXNativeTarget "Tapity" */;
+			buildPhases = (
+				D879DB5A1EDBA4DE009E2141 /* Sources */,
+				D879DB5B1EDBA4DE009E2141 /* Frameworks */,
+				D879DB5C1EDBA4DE009E2141 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tapity;
+			productName = Tapity;
+			productReference = D879DB5E1EDBA4DE009E2141 /* Tapity.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D879DB561EDBA4DE009E2141 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Nathan Heldon";
+				TargetAttributes = {
+					D879DB5D1EDBA4DE009E2141 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D879DB591EDBA4DE009E2141 /* Build configuration list for PBXProject "Tapity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D879DB551EDBA4DE009E2141;
+			productRefGroup = D879DB5F1EDBA4DE009E2141 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D879DB5D1EDBA4DE009E2141 /* Tapity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D879DB5C1EDBA4DE009E2141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D879DB6C1EDBA4DE009E2141 /* LaunchScreen.storyboard in Resources */,
+				D879DB691EDBA4DE009E2141 /* Assets.xcassets in Resources */,
+				D879DB671EDBA4DE009E2141 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D879DB5A1EDBA4DE009E2141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D879DB641EDBA4DE009E2141 /* ViewController.swift in Sources */,
+				D879DB621EDBA4DE009E2141 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D879DB651EDBA4DE009E2141 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D879DB661EDBA4DE009E2141 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D879DB6A1EDBA4DE009E2141 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D879DB6B1EDBA4DE009E2141 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D879DB6E1EDBA4DE009E2141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D879DB6F1EDBA4DE009E2141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D879DB711EDBA4DE009E2141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tapity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cgscomputing.NathanHeldon.Tapity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D879DB721EDBA4DE009E2141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tapity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cgscomputing.NathanHeldon.Tapity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D879DB591EDBA4DE009E2141 /* Build configuration list for PBXProject "Tapity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D879DB6E1EDBA4DE009E2141 /* Debug */,
+				D879DB6F1EDBA4DE009E2141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D879DB701EDBA4DE009E2141 /* Build configuration list for PBXNativeTarget "Tapity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D879DB711EDBA4DE009E2141 /* Debug */,
+				D879DB721EDBA4DE009E2141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D879DB561EDBA4DE009E2141 /* Project object */;
+}
