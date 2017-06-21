@@ -3,8 +3,8 @@
 //  Tapity
 //
 //  Created by Nathan Heldon on 29/5/17.
-//  Copyright © 2017 Nathan Heldon. All rights reserved.
-//
+//  Copyright © 2017 Nathan Heldon. All rights predeserved.
+//  yeet
 
 import UIKit
 
